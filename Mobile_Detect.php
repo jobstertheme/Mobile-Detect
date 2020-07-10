@@ -213,7 +213,7 @@ class Mobile_Detect
      */
     protected static $tabletDevices = array(
         // @todo: check for mobile friendly emails topic.
-        'iPad'              => 'iPad|iPad.*Mobile',
+        'iPad'              => 'iPad|iPad.*Mobile|Macintosh.*Mobile',
         // Removed |^.*Android.*Nexus(?!(?:Mobile).)*$
         // @see #442
         // @todo Merge NexusTablet into GoogleTablet.
